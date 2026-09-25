@@ -1,25 +1,82 @@
 aid: anycreek
+
 name: AnyCreek
-description: 'AnyCreek is a company surfaced via the API Evangelist harvest backlog (source: secondary-market;
-  backed by starting-line-vc) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'AnyCreek provides an all‑in‑one operating system for modern outdoor businesses and guides. Founded in 2022, it streamlines calendar management, payments, marketing, and client information, empowering guides and outfitters to grow their businesses. The platform powers over a million hours of outdoor experiences worldwide, offering tools for bookings, payments, and business analytics.'
+
 url: https://raw.githubusercontent.com/api-evangelist/anycreek/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
-- Company
-apis: []
+- Payments
+- Calendar Management
+- Guide Assignments
+- Marketing
+- SEO
+- Outdoor Guides
+- Outfitters
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common:
+- type: Plans
+  url: plans/anycreek-plans-pricing.yml
+- type: Hosts
+  url: hosts/anycreek-hosts.yml
+- type: Vendors
+  url: vendors/anycreek-vendors.yml
+- type: Pricing
+  url: https://anycreek.com/pricing
+- type: Login
+  url: https://anycreek.com/auth/sign-in
+- type: GitHubOrganization
+  url: https://github.com/anycreek
+- type: DomainSecurity
+  url: security/anycreek-domain-security.yml
+- type: Website
+  url: https://anycreek.com
+- type: Documentation
+  url: https://anycreek.com/about
+- type: DeveloperPortal
+  url: https://explore.anycreek.com
+- type: PrivacyPolicy
+  url: https://anycreek.com/privacy
+- type: TermsOfService
+  url: https://anycreek.com/terms
+
+apis: []
+
 x-backed-by:
 - starting-line-vc
-common:
-- type: Website
-  url: https://www.nasdaqprivatemarket.com/
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-09-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence: anycreek.com
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

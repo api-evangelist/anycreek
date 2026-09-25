@@ -1,0 +1,57 @@
+generated: 2026-09-25
+method: searched
+source: https://anycreek.com/pricing
+name: AnyCreek API Plans
+audience: business-product
+pricing_basis: tiered-subscription
+published: true
+plans:
+  - name: Free
+    description: Use our platform for free!
+    price_text: "Free"
+    price: "Free"
+    features:
+      - Basic guide features
+  - name: Basic guide
+    description: For guides who are just getting started and want the basics
+    price_text: "$ 49 / month"
+    price: 49
+    features:
+      - Custom website to capture new booking requests
+      - Automatically collect deposits, payments, and tips
+      - Trip reminders and notifications
+      - Digital client rolodex with notes and history
+      - 24/7 client chat, e-mail, and phone support
+      - Mobile app
+    limits: []
+  - name: Pro guide
+    description: Premium features and hands on support to take it to the next level
+    price_text: "$ 199 / month"
+    price: 199
+    features:
+      - Everything in Basic
+      - AnyCreek social media and marketing exposure
+      - Website booking integration
+      - Top guide community forum
+      - Real-time business analytics
+      - Private trip notes
+      - Guaranteed bookings
+      - Dedicated account manager
+    limits: []
+  - name: Top guide
+    description: Custom pricing upon request
+    price_text: "Custom pricing upon request"
+    price: "Contact sales"
+    features:
+      - Everything in Pro
+      - Dedicated content shoot days
+      - Seamless ...
+    limits: []
+  - name: Outfitter
+    description: Custom pricing upon request
+    price_text: "Custom pricing upon request"
+    price: "Contact sales"
+    features:
+      - Everything in Pro
+      - Dedicated content shoot days
+    limits: []
