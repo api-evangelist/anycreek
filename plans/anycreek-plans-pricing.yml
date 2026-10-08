@@ -55,3 +55,42 @@ plans:
       - Everything in Pro
       - Dedicated content shoot days
     limits: []
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - negotiated
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Basic guide
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Pro guide
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Top guide
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Outfitter
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
